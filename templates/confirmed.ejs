@@ -1,0 +1,28 @@
+<html>
+
+<title>Secret Santa</title>
+
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<h1>Recipient Added!</h1>
+
+<body>
+    <h2>The following recipient has been added:</h2>
+
+    Name: <%- name %> <br>
+    Email: <%- email %>
+
+    <br>
+
+
+    <form method="post" action="http://localhost:5000/send">
+        <input type="submit" value="Send assignments">
+    </form>
+    <form method="post" action="http://localhost:5000/entry">
+        <input type="submit" value="Add another participant">
+    </form>
+
+
+</body>

@@ -1,0 +1,34 @@
+html {
+    background-color: darkred;
+}
+
+
+h1 {
+    color:rgb(80, 160, 0);
+}
+
+h2 {
+    color:rgb(78, 156, 0);
+}
+
+body {
+    color:chartreuse;
+}
+
+a {
+    color:aqua;
+}
+
+table {
+    background-color:black;
+    border-color:crimson;
+    color:white;
+}
+
+.hidden {
+    color:black;
+}
+
+.hidden:hover {
+    color:white;
+}
